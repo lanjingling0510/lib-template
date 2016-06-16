@@ -20,8 +20,3 @@ function buildEntries() {
         return a;
     }, {});
 }
-
-
-function isDirectory(dir) {
-  return fs.lstatSync(dir).isDirectory();
-}
