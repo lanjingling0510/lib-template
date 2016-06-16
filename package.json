@@ -3,6 +3,8 @@
   "version": "1.0.8",
   "description": "a libriary template",
   "main": "./dist/infinite-scroll.js",
+  "repository": "rainie/lib-template",
+  "homepage": "https://github.com/lanjingling0510/lib-template#readme",
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
@@ -10,7 +12,7 @@
     "preview-release": "scripts/preview-release",
     "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --require ./test/helper.js --recursive"
   },
-  "author": "",
+  "author": "rainie",
   "devDependencies": {
     "babel-core": "^6.9.0",
     "babel-eslint": "^6.0.4",
