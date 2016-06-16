@@ -1,10 +1,18 @@
-# lib-template[![Build Status](https://travis-ci.org/lanjingling0510/lib-template.svg?branch=master)](https://travis-ci.org/lanjingling0510/lib-template)
+# lib-template[![Travis][build-badge]][build] [![npm package][npm-badge]][npm]
 
 一个前端js的npm插件的模板
 
 ### 目录
 ```
 .
+├── .DS_Store
+├── .babelrc
+├── .eslintignore
+├── .eslintrc
+├── .git
+├── .gitignore
+├── .npmignore
+├── .travis.yml
 ├── CHANGELOG.md
 ├── README.md
 ├── dist
@@ -15,6 +23,7 @@
 ├── scripts
 ├── test
 └── webpack.config.js
+
 
 ```
 
