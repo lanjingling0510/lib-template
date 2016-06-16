@@ -1,5 +1,5 @@
 # lib-template
-[![Build Status](https://travis-ci.org/lanjingling0510/lib-template.svg?branch=master)](https://travis-ci.org/lanjingling0510/lib-template)
+[![Build Status](https://travis-ci.org/lanjingling0510/lib-template.svg?branch=master)](https://travis-ci.org/lanjingling0510/lib-template)[![npm version](https://badge.fury.io/js/lib-template.svg)](https://www.npmjs.com/package/lib-template)
 
 一个前端js的npm插件的模板
 
