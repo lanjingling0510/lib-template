@@ -25,5 +25,3 @@ function buildEntries() {
 function isDirectory(dir) {
   return fs.lstatSync(dir).isDirectory();
 }
-
-console.log(buildEntries());
