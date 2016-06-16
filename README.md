@@ -1,4 +1,5 @@
-# lib-template[![Travis][build-badge]][build] [![npm package][npm-badge]][npm]
+# lib-template
+[![Build Status](https://travis-ci.org/lanjingling0510/lib-template.svg?branch=master)](https://travis-ci.org/lanjingling0510/lib-template)
 
 一个前端js的npm插件的模板
 
