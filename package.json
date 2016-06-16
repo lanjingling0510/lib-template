@@ -3,7 +3,7 @@
   "version": "1.0.9",
   "description": "a libriary template",
   "main": "./dist/infinite-scroll.js",
-  "repository": "rainie/lib-template",
+  "repository": "lanjingling0510/lib-template",
   "homepage": "https://github.com/lanjingling0510/lib-template#readme",
   "scripts": {
     "build": "webpack",
