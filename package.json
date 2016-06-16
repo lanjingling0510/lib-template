@@ -1,6 +1,6 @@
 {
   "name": "lib-template",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "a libriary template",
   "main": "./dist/infinite-scroll.js",
   "repository": "lanjingling0510/lib-template",

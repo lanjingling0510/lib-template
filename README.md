@@ -1,8 +1,8 @@
 # lib-template
-[![Build Status](https://travis-ci.org/lanjingling0510/lib-template.svg?branch=master)](https://travis-ci.org/lanjingling0510/lib-template)  [![npm version](https://badge.fury.io/js/lib-template.svg)](https://www.npmjs.com/package/lib-template)
+[![Travis][build-badge]][build] [![npm package][npm-badge]][npm]
 
 一个前端js的npm插件的模板
-
+[![Coveralls][coveralls-badge]][coveralls]
 ### 目录
 ```
 .
@@ -57,3 +57,10 @@ v1.0.3 - Thu, 16 Jun 2016 07:40:47 GMT
 --------------------------------------
 
 -
+
+[npm-badge]: https://img.shields.io/npm/v/lib-template.svg?style=flat-square
+[npm]: https://www.npmjs.com/package/lib-template
+[build-badge]: https://img.shields.io/travis/lanjingling0510/lib-template/master.svg?style=flat-square
+[build]: https://travis-ci.org/lanjingling0510/lib-template
+[coveralls-badge]: https://img.shields.io/coveralls/reactjs/react-router/master.svg?style=flat-square
+[coveralls]: https://coveralls.io/github/reactjs/react-router
