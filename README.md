@@ -1,8 +1,8 @@
 # lib-template
-[![Travis][build-badge]][build] [![npm package][npm-badge]][npm]
+[![Travis][build-badge]][build] [![npm package][npm-badge]][npm] [![Coveralls][coveralls-badge]][coveralls]
 
 一个前端js的npm插件的模板
-[![Coveralls][coveralls-badge]][coveralls]
+
 ### 目录
 ```
 .

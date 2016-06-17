@@ -1,12 +1,15 @@
-import { expect } from 'chai';
-import InfiniteScroll from '../../lib/index';
+var chai = require('chai');
+var expect = chai.expect;
+import My from '../../lib/sqrt.js';
 
-describe('', () => {
-    it('', () => {
-        const data = {
-            name: 'cyt'
-        };
-        const nextData = {name: 'cyt'};
-        expect(data).to.deep.equal(nextData);
-    });
+describe("sqrt", function() {
+
+  it("4的平方根应该等于2", function() {
+    expect(My.sqrt(4)).to.equal(2);
+  });
+
+  it("参数为负值时应该报错", function() {
+    expect(function(){ My.sqrt(-1); }).to.throw("负值没有平方根");
+  });
+
 });
