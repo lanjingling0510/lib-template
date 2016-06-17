@@ -10,22 +10,11 @@
     "start": "webpack-dev-server",
     "release": "scripts/release",
     "preview-release": "scripts/preview-release",
-    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --require ./test/helper.js --recursive",
-    "coverage-local": "./node_modules/.bin/nyc report",
+    "mocha": "./node_modules/.bin/mocha --compilers js:babel-core/register --require ./test/helper.js --recursive",
+    "test": "./node_modules/.bin/nyc npm run mocha",
     "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
   "author": "rainie",
-  "nyc": {
-    "require": [
-      "babel-core/register",
-      "./test/helper.js"
-    ],
-    "include": [
-      "test/functional/**"
-    ],
-    "sourceMap": false,
-    "instrument": false
-  },
   "devDependencies": {
     "babel-core": "^6.9.0",
     "babel-eslint": "^6.0.4",
@@ -42,6 +31,7 @@
     "eslint-plugin-react": "^5.1.1",
     "html-webpack-plugin": "^2.21.0",
     "mocha": "2.3.3",
+    "mocha-lcov-reporter": "^1.2.0",
     "nyc": "^6.6.1",
     "rf-release": "^0.4.0",
     "webpack": "^1.13.1",
