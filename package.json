@@ -10,7 +10,7 @@
     "start": "webpack-dev-server",
     "release": "scripts/release",
     "preview-release": "scripts/preview-release",
-    "run": "./node_modules/.bin/mocha --compilers js:babel-core/register --require ./test/helper.js --recursive",
+    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --require ./test/helper.js --recursive",
     "coverage-local": "./node_modules/.bin/nyc report",
     "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
   },
