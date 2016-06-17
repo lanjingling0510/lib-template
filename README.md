@@ -62,5 +62,5 @@ v1.0.3 - Thu, 16 Jun 2016 07:40:47 GMT
 [npm]: https://www.npmjs.com/package/lib-template
 [build-badge]: https://img.shields.io/travis/lanjingling0510/lib-template/master.svg?style=flat-square
 [build]: https://travis-ci.org/lanjingling0510/lib-template
-[coveralls-badge]: https://img.shields.io/coveralls/reactjs/react-router/master.svg?style=flat-square
-[coveralls]: https://coveralls.io/github/reactjs/react-router
+[coveralls-badge]: https://img.shields.io/coveralls/lanjingling0510/lib-template.svg?style=flat-square
+[coveralls]: https://coveralls.io/github/lanjingling0510/lib-template
